@@ -1,0 +1,82 @@
+<div id="home-container">
+    <div class="headertext" id="header-text">
+        <span>
+            Hi there, my name is
+        </span>
+        <h1 [innerText]="authorName"></h1>
+        <h4>{{authorJob}}.</h4>
+        <p>
+            I'm passionate about web programming. Through constant practice & learning, I make
+            things pretty and easy to use and I'm excited to share my projects with you.
+        </p>
+    </div>
+    
+    
+    <div class="about-me" id="about-me">
+        <div id="about-me-header">
+            <h2>
+                About Me
+            </h2>
+        </div>
+    
+        <div id="about-me-main-left-content">
+            <div id="about-me-content">
+                <p>
+                    Over the last few years, having developed a keen eye for the emerging technologies around me
+                    I have continuously strived to gain and improve my <span>knowledge</span> of all aspects of the
+                    <span>web</span>.
+                </p> <br>
+                <p>
+                    Giving a quick overview of myself,during my later years in the University, I studied
+                    <span>HTML</span>, <span>CSS</span>, and <span> Javascript</span> through different YouTube
+                    channels and Free code camp websites in my free time, which helped to give me a foundation that I
+                    could later build upon.
+                </p> <br>
+
+                <P [hidden]="readMore">
+                    After a while, my dedication to self-improvement in <span>web design</span> and
+                    <span>development</span> inspired me to enroll in a Bootcamp to learn
+                    <span>Full Stack Web Development</span>. This transition greatly helped improve my knowledge of
+                    <span>Web development</span>.
+                </P>
+                <small id="togglespan" (click)="toggle()" [innerText]="moreLess"></small>
+            </div>
+    
+            <div id="skills">
+                <h3>
+                    My Skills
+                </h3>
+    
+                <div id="list-skills">
+                    <div id="skills-li">
+                        <P>
+                            Frontend:
+                        </P>
+                        <li [innerText]="skills.frontEnd"></li>
+                    </div>
+                    <div id="skills-li">
+                        <P>
+                            Backend:
+                        </P>
+                        <li [innerText]="skills.backEnd"></li>
+                    </div>
+                    <div id="skills-li">
+                        <P>
+                            Tools:
+                        </P>
+                        <li [innerText]="skills.myTools"></li>
+                    </div>
+                    <div id="skills-li">
+                        <P>
+                            Others:
+                        </P>
+                        <li [innerText]="skills.myOthers"></li>
+                    </div>
+                </div>
+            </div>
+    
+    
+        </div>
+    
+    </div>
+</div>

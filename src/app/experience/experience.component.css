@@ -1,0 +1,99 @@
+#projects {
+    padding: 2rem 0;
+    width: 90%;
+    margin: auto;
+}
+
+#projects-header {
+    position: relative;
+}
+
+#projects-header h3 {
+    color: rgba(243, 237, 229, 0.89);
+    font-family: 'Roboto Mono', monospace;
+    overflow-y: hidden;
+    font-size: 30px;
+}
+
+#tradexpress {
+    margin: 1.5rem 0.5rem;
+    border: 1px solid;
+    border: none;
+    box-shadow: 0px 0px 15px 5px #031720d8;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+
+#tradexpress h6 {
+    font-family: 'Roboto Mono', monospace;
+    color: rgba(243, 237, 229, 0.89);
+    overflow-y: hidden;
+    font-size: 20px;
+}
+
+#tradexpress span {
+    font-style: italic;
+    color: crimson;
+    font-size: 13px;
+}
+
+#tradexpress li {
+    list-style-type: square;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(243, 237, 229, 0.575);
+}
+
+#experience {
+    padding-top: 5rem;
+}
+
+
+#my-experience-header {
+    position: relative;
+}
+
+a{
+    color: crimson;
+    font-size: 15px;
+    margin-left: 3px;
+}
+#my-experience-header h3 {
+    color: rgba(243, 237, 229, 0.89);
+    font-family: 'Roboto Mono', monospace;
+    overflow-y: hidden;
+    font-size: 30px;
+}
+
+#my-experience-content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+
+#info h6 {
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 1rem;
+    color: rgba(243, 237, 229, 0.89);
+    overflow-y: hidden;
+    font-size: 20px;
+}
+
+#info span {
+    font-style: italic;
+    color: rgba(243, 237, 229, 0.575);
+}
+
+#info-li {
+    margin-top: 1rem;
+}
+
+#info-li li {
+    list-style-type: disc;
+    text-indent: 5px;
+}
+
+#date {
+    font-family: 'Roboto Mono', monospace;
+    color: rgba(243, 237, 229, 0.575);
+    margin-top: 1rem;
+}

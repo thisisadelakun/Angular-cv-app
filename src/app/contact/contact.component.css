@@ -1,0 +1,60 @@
+#contact-me {
+    padding: 2rem 0;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+#contact-header h3 {
+    color: rgba(243, 237, 229, 0.89);
+    font-family: 'Roboto Mono', monospace;
+    overflow-y: hidden;
+}
+
+#contact-header .intouch {
+    color: rgba(243, 237, 229, 0.575);
+    padding-bottom: 0.2rem;
+}
+
+#sub-contact-content {
+    margin: 1rem 0;
+}
+
+#linking,
+#links {
+    color: ivory;
+    font-family: 'Roboto', sans-serif;
+    font-size: 500;
+}
+
+
+#sub-contact-content1 a:hover {
+    color:crimson;
+}
+
+#socialmedia {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom: 1rem;
+}
+
+#madewithlove {
+    margin: 1rem 0;
+    color: rgba(243, 237, 229, 0.575);
+    letter-spacing: 2px;
+}
+
+a {
+    margin: 1rem 0;
+    color: crimson;
+    text-decoration: none;
+}
+
+#socialmedia a:hover,
+#madewithlove a:hover {
+    color: rgba(243, 237, 229, 0.575);
+}
